@@ -1,0 +1,60 @@
+// main: main.scss
+
+html {
+    font-size: 10px;
+} 
+
+body {
+    font-family: $base-font;
+    margin: 0;
+
+    &.nav__open {
+        @include tablet-mobil {
+            height: 100vh;
+            overflow: hidden;
+            position: fixed;
+        }
+    }
+}
+#root{
+    height: 100%;
+}
+
+*,
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:hover:before,
+*:hover:after,
+*:before,
+*:after {
+    text-decoration: underline;
+}
+
+*:hover:before,
+*:hover:after,
+*:before,
+*:after {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: $color-default;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

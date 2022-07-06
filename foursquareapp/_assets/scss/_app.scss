@@ -1,0 +1,21 @@
+// main: main.scss
+
+.search-bar{
+    margin-top: 50px;
+    .input-group{
+        height: 50px;
+        width: 50%;
+        .search-value{
+            font-size: 18px;
+            .search{
+                font-size: 19px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+#map{
+    height: 800px; 
+    width: 100%;
+}
